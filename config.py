@@ -50,7 +50,7 @@ SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/84T9GW8y/Uploa
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Tech_SHreyansh2\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Tech_Shreyansh1>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜱʜɪɴᴇ ᴀᴅꜱ : <a href=https://t.me/shineads>ɢᴘʟ ᴛʜᴇᴍᴇꜱ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SmartEdith_Bot>ᴍɪᴄᴋʏ & ᴘʀᴇᴠɪᴇᴡꜱ 🍫</a>\n◈ ꜱʜʀᴇʏᴀɴꜱʜ ᴍᴏᴅꜱ : <a href=https://t.me/ShreyanshSupport2>ᴍᴏᴅᴅɪɴɢ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Tech_Shreyansh1>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜱʜɪɴᴇ ᴀᴅꜱ : <a href=https://t.me/shineads>ɢᴘʟ ᴛʜᴇᴍᴇꜱ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SmartEdith_Bot>ᴍɪᴄᴋʏ & ᴘʀᴇᴠɪᴇᴡꜱ 🍫</a>\n◈ ᴛꜱ ᴍᴏᴅꜱ : <a href=https://t.me/TSModsGroup>ᴍᴏᴅᴅɪɴɢ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
