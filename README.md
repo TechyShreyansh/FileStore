@@ -100,7 +100,7 @@
 <h3>「 ᴏᴛʜᴇʀ ʙʀᴀɴᴄʜᴇs 」
 </h3>
 
-- <b>[ᴛᴏᴋᴇɴ](https://github.com/TechyShreyansh/FileStore/tree/token)  ➻  [ᴡɪᴛʜᴏᴜᴛ sʜᴏʀᴛɴᴇʀ](https://github.com/TechyShreyansh/FileStore/tree/Master) </b>
+- <b>[ᴛᴏᴋᴇɴ](https://github.com/TechyShreyansh/FileStore/tree/token)  ➻  [ᴡɪᴛʜᴏᴜᴛ sʜᴏʀᴛɴᴇʀ](https://github.com/TechyShreyansh/FileStore/tree/master) </b>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
