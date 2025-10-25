@@ -50,7 +50,7 @@ async def get_users(client: Bot, message: Message):
     await msg.edit(f"{len(users)} users are using this bot")
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -86,7 +86,7 @@ async def check_delete_time(client: Bot, message: Message):
 #=====================================================================================##
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #

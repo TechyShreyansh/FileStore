@@ -16,7 +16,7 @@ from database.database import *
 
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -38,7 +38,7 @@ async def check_admin(filter, client, update):
 
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -72,7 +72,7 @@ async def is_subscribed(client, user_id):
 
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -108,7 +108,7 @@ async def is_sub(client, user_id, channel_id):
         return False
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -212,7 +212,7 @@ def get_exp_time(seconds):
     return result
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #

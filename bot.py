@@ -1,5 +1,6 @@
+
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
+# Ask Doubt on telegram @Tech_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -44,7 +45,7 @@ scheduler.add_job(daily_reset_task, "cron", hour=0, minute=0)
 
 
 name ="""
- BY CODEFLIX BOTS
+ BY MrGhostsx
 """
 
 def get_indian_time():
@@ -70,7 +71,7 @@ class Bot(Client):
         await super().start()
         scheduler.start()
         usr_bot_me = await self.get_me()
-        self.uptime = datetime.now()
+        self.uptime = get_indian_time()
 
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -128,8 +129,6 @@ class Bot(Client):
         finally:
             loop.run_until_complete(self.stop())
 
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -138,4 +137,3 @@ class Bot(Client):
 # Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
 #
 # All rights reserved.
-#

@@ -1,5 +1,3 @@
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
 #
 # Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
 #
@@ -8,7 +6,6 @@
 # Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
 #
 # All rights reserved.
-#
 
 from pyrogram import Client 
 from bot import Bot
@@ -22,7 +19,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     if data == "help":
         await query.message.edit_text(
-            text=HELP_TXT.format(first=query.from_user.first_name),
+            text=HELP_TXT.format(first=query.from_user.first_name, mention=query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
@@ -32,7 +29,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     elif data == "about":
         await query.message.edit_text(
-            text=ABOUT_TXT.format(first=query.from_user.first_name),
+            text=ABOUT_TXT.format(first=query.from_user.first_name, mention=query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
@@ -42,7 +39,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     elif data == "start":
         await query.message.edit_text(
-            text=START_MSG.format(first=query.from_user.first_name),
+            text=START_MSG.format(first=query.from_user.first_name, mention=query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
@@ -157,6 +154,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             "sᴇʟᴇᴄᴛ ᴀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴛᴏɢɢʟᴇ ɪᴛs ғᴏʀᴄᴇ-sᴜʙ ᴍᴏᴅᴇ:",
             reply_markup=InlineKeyboardMarkup(buttons)
         )
+
 
 # Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
 # Ask Doubt on telegram @TechS_Shreyansh2
