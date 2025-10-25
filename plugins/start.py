@@ -205,7 +205,7 @@ async def start_command(client: Client, message: Message):
 
 #=====================================================================================##
 # Don't Remove Credit @Tech_Shreyansh2, @Tech_Shreyansh29
-# Ask Doubt on telegram @AboutShreyansh
+# Ask Doubt on telegram @AboutsShreyansh
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):

@@ -54,9 +54,12 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/HL1WPr4F/Uploaded-6910
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
+TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False  #For Enable Token 
+
+#TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
+
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "3c6b334763d6ef2e5325149b8e37fcd772591a6e")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "adabe1c0675be8ffc5ccbc865gra65bc5a5d3ec69")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/howtodownloadstutorials/5")
@@ -65,7 +68,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/howtodownloadstutorials/5")
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Tech_Shreyansh29\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
 
 
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Tech_Shreyansh>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜱʜɪɴᴇ ᴀᴅꜱ : <a href=https://t.me/shineads>ɢᴘʟ ᴛʜᴇᴍᴇꜱ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+Q5pbPuc8lGk3YWQ1>ᴍɪᴄᴋʏ & ᴘʀᴇᴠɪᴇᴡꜱ 🍫</a>\n◈ ꜱʜʀᴇʏᴀɴꜱʜ ᴍᴏᴅꜱ : <a href=https://t.me/ShreyanshMods>ᴍᴏᴅᴅɪɴɢ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Tech_Shreyansh>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a>\n◈ ꜱʜɪɴᴇ ᴀᴅꜱ : <a href=https://t.me/shineads>ɢᴘʟ ᴛʜᴇᴍᴇꜱ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+Q5pbPuc8lGk3YWQ1>ᴍɪᴄᴋʏ & ᴘʀᴇᴠɪᴇᴡꜱ 🍫</a>\n◈ ᴛꜱ ᴍᴏᴅꜱ : <a href=https://t.me/TSModsGroup>ᴍᴏᴅᴅɪɴɢ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tech_Shreyansh29>ᴛᴇᴄʜ ꜱʜʀᴇʏᴀɴꜱʜ</a></blockquote></b>"
 
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -114,3 +117,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
+   
